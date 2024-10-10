@@ -1,0 +1,77 @@
+#addFeedbackSection,
+#productList,
+#reviews {
+  margin: 20px;
+  padding: 20px;
+  background-color: #f7f7f758;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  justify-content: space-around;
+}
+.addFeedback {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+input[type="text"],
+textarea {
+  display: block;
+  width: 50%;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  border: 1px grey solid;
+  text-align: center;
+}
+
+.conteiner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+button {
+  background-color: #687076;
+  color: #fff;
+  border-radius: 20px;
+  padding: 3px 9px;
+  cursor: pointer;
+  border: 1px grey solid;
+}
+
+ul {
+  list-style: circle;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+
+button.delete-button {
+  background-color: #687076;
+  margin-left: 20px;
+  padding: 1px 3px;
+  font-size: 8px;
+}
+
+h2 {
+  color: #3c4145;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+}
+
+.reviewsFeedback {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.prodFeedback {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 250px;
+}

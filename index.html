@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="feedback.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="addFeedback" id="addFeedbackSection">
+      <div class="conteiner">
+        <h2>Добавить отзыв</h2>
+        <input type="text" id="productInput" placeholder="Название товара" />
+        <textarea id="reviewInput" placeholder="Ваш отзыв"></textarea>
+        <button id="addFeedbackBtn">Добавить отзыв</button>
+      </div>
+    </div>
+    <div id="productList">
+      <h2>Список товаров</h2>
+      <ul id="products"></ul>
+    </div>
+
+    <div class="reviewsFeedback" id="reviews">
+      <h2>Отзывы</h2>
+      <div class="prodFeedback" id="productFeedbacks"></div>
+    </div>
+  </body>
+</html>
